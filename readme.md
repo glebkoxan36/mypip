@@ -1,34 +1,6 @@
 Node Manager - Универсальный менеджер криптовалютных нод
 
-🌟 Особенности
 
-🚀 Быстрый старт
-
-📦 Установка
-
-⚙️ Конфигурация
-
-🏗️ Архитектура
-
-💡 Использование
-
-🤖 Примеры
-
-🔧 API Reference
-
-➕ Добавление монет
-
-📊 Мониторинг
-
-🛠️ Отладка
-
-📈 Производительность
-
-🤝 Вклад в проект
-
-📄 Лицензия
-
-🌟 Особенности
 ✅ Полная поддержка Nownodes
 Единый API ключ для всех монет
 
@@ -76,7 +48,7 @@ Bitcoin (BTC) - полная поддержка
 Установка за 30 секунд:
 bash
 # Установите модуль
-pip install git+https://github.com/yourusername/node-manager.git
+pip install git+https://github.com/glebkoxan36/node-manager.git
 
 # Создайте конфигурацию
 python -c "from node_manager.nodeconfig import NodeConfig; NodeConfig.generate_config_template()"
@@ -109,27 +81,8 @@ asyncio.run(main())
 Способ 1: Из GitHub (рекомендуется)
 bash
 # Последняя версия из main ветки
-pip install git+https://github.com/yourusername/node-manager.git
+pip install git+https://github.com/glebkoxan36/node-manager.git
 
-# Конкретная версия
-pip install git+https://github.com/yourusername/node-manager.git@v2.0.0
-
-# Конкретная ветка
-pip install git+https://github.com/yourusername/node-manager.git@develop
-Способ 2: Локальная установка
-bash
-# Клонирование репозитория
-git clone https://github.com/yourusername/node-manager.git
-cd node-manager
-
-# Установка в режиме разработки
-pip install -e .
-
-# Или установка как пакет
-python setup.py install
-Способ 3: Из PyPI (после публикации)
-bash
-pip install node-manager
 Зависимости
 Модуль автоматически установит:
 
@@ -1699,77 +1652,5 @@ class TestLitecoinNode:
         
         assert validation['is_valid'] is True
         assert validation['address'] == "ltc1qtestaddress"
-📄 Лицензия
-Этот проект распространяется под лицензией MIT. См. файл LICENSE для получения подробной информации.
 
-Основные положения:
-Разрешено:
 
-Использовать в коммерческих целях
-
-Модифицировать и распространять
-
-Использовать в частных проектах
-
-Распространять с указанием авторства
-
-Требуется:
-
-Сохранять уведомление об авторских правах и лицензии
-
-Указывать изменения в коде
-
-Запрещено:
-
-Отказываться от ответственности автора
-
-Использовать товарные знаки автора
-
-Авторские права:
-text
-Copyright (c) 2024 Node Manager Contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-Вкладчики:
-Основной разработчик: Ваше Имя
-
-Контрибьюторы: Список вкладчиков
-
-Поддержка проекта:
-Если вы нашли этот проект полезным, рассмотрите возможность:
-
-⭐ Поставить звезду на GitHub
-
-🐛 Сообщить об ошибке через Issues
-
-💡 Предложить улучшение через Pull Requests
-
-☕ Поддержать разработчика кофе
-
-<div align="center">
-Спасибо за использование Node Manager! 🚀
-
-Если у вас есть вопросы или нужна помощь, создайте Issue на GitHub.
-
-Документация |
-Примеры |
-Issues
-
-</div>
-Теперь предоставлю полный код всех файлов модуля.
