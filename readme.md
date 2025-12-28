@@ -1,14 +1,5 @@
 Node Manager - Универсальный менеджер криптовалютных нод
-<div align="center">
-https://img.shields.io/badge/version-2.0.0-blue.svg
-https://img.shields.io/badge/python-3.8+-green.svg
-https://img.shields.io/badge/license-MIT-yellow.svg
-https://img.shields.io/badge/nownodes-supported-orange.svg
 
-Универсальный модуль для работы с криптовалютными нодами через Nownodes API
-
-</div>
-📋 Содержание
 🌟 Особенности
 
 🚀 Быстрый старт
