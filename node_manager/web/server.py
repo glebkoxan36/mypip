@@ -23,10 +23,16 @@ import psutil
 import platform
 
 # Добавляем родительский каталог в путь для импорта
-sys.path.append(str(Path(__file__).parent.parent.parent))
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-from ..node_manager import NodeManager, NodeConfig, create_node_manager
-
+try:
+    from node_manager import NodeManager, create_node_manager
+except ImportError:
+    # Для разработки
+    sys.path.insert(0, str(Path(__file__).parent.parent))
+    from node_manager import NodeManager, create_node_manager
 logger = logging.getLogger(__name__)
 
 @dataclass
